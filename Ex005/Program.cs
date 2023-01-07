@@ -1,5 +1,13 @@
-﻿double number 4, -3 , 7 ;
-if (number/2);
-console.WriteLine(number/2);
-
+﻿int a;
+Console.WriteLine("Введите число:");
+a=Convert.ToInt32(Console.ReadLine()) ;
+if (a % 2 == 0)
+{
+   Console.WriteLine("{0} четное", a );
+}
+else
+{
+    Console.WriteLine("{0} не четное", a);
+}
+Console.ReadLine();
 
